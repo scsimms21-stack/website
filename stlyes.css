@@ -1,6 +1,5 @@
-* 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
-{
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -13,25 +12,24 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 16px;
+  background-color: #cafdff;
 }
 
 a {
   color: #0000;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .logo {
-width: 300px;
+  width: 300px;
 }
 
 ul {
   display: flex;
-  font-color: black;
 }
 
-li { 
-  list-style: none;
-  padding-left:16px;
-  font-color: red;
+li {
+  list-style-type: none;
+  padding-left: 16px;
 }
