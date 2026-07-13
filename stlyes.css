@@ -76,10 +76,15 @@ ABOUT
 
 */
 
-#about {
+#about,
+#discord,
+#contact {
   padding: 48px 0;
-  background-color: #f8ffdc;
-}
+ }
+
+ #about {
+   background-color: #f8ffdc;
+ }
 
 h2 {
   font-size: 60px;
