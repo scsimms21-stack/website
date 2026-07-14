@@ -209,4 +209,19 @@ footer {
       text-align: center;
       font-size: 28px;
     }
-  }
+
+    ul {
+      display: none;
+       }
+
+       .section__description {
+        flex-direction: column;
+       }
+       
+       .section__desription--wrapper{
+        width: 100%;      
+       }
+
+       #discord .section__description{
+        flex-direction: column-reverse;
+       }
