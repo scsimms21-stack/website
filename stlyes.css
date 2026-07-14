@@ -203,12 +203,12 @@ footer {
     h1 {
       text-align: center;
       font-size: 60px;
-    }
+       }
 
     .subheader {
       text-align: center;
       font-size: 28px;
-    }
+       }
 
     ul {
       display: none;
@@ -222,6 +222,12 @@ footer {
         width: 100%;      
        }
 
+       .about__img--wrapper {
+        width: 100%;
+       }
+
        #discord .section__description{
         flex-direction: column-reverse;
        }
+
+}
