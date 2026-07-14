@@ -137,13 +137,9 @@ CONTACT
 
 */
 
-.contact {
-  background-color: #dce9ff;
+#contact {
+  background-color: #dec9ff;
   display: flex;
-}
-
-h2 {
-  align-items: center;
 }
 
 form {
