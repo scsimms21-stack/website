@@ -30,7 +30,7 @@ h1 {
 
 .subheader {
   font-size: 36px;
-  margins: 16px 0 24px 0;
+  margin: 16px 0 24px 0;
 }
 
 button {
@@ -62,7 +62,7 @@ li {
 }
 
 .row {
-  width+ 100%;
+  width: 100%;
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
@@ -101,7 +101,7 @@ h2 {
 }
 
 .about__img--wrapper {
-  width= 40%;
+  width: 40%;
   padding: 0 24px;
 }
 
@@ -109,7 +109,7 @@ img {
   width: 100%;
 }
 
-.section__desription--wrapper {
+.section__description--wrapper {
   width: 60%;
   padding: 0 24px;
 }
@@ -184,7 +184,7 @@ footer {
 
   /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 
-  @media (max-width; 728px) {
+  @media (max-width: 728px) {
     .row {
       flex-direction: column;
     }
@@ -218,7 +218,7 @@ footer {
         flex-direction: column;
        }
        
-       .section__desription--wrapper{
+       .section__description--wrapper{
         width: 100%;      
        }
 
